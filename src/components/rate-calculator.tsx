@@ -33,7 +33,7 @@ const RateCalculator = () => {
             </button>
           </div>
         </div>
-        <div className="bg-white rounded-lg p-5 w-full lg:h-52 h-76">
+        <div className="bg-white rounded-lg p-5 w-full lg:h-52 h-32">
           <p className="font-semibold">Rate Calculation Result:</p>
         </div>
       </div>

@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 const Testimonies = () => {
   return (
-    <section className="lg:py-20 py-10 bg-white overflow-hidden lg:px-auto px-6">
+    <section className="lg:py-20 py-10 bg-white overflow-hidden ">
       <div className="max-w-360 mx-auto">
         <h2 className="font-bold text-2xl md:text-4xl text-center text-black mb-16">
           From the mouth of Our Users

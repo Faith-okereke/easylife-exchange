@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import Logo from "/easylife-logo.png";
+import Logo from "/easylife-logo.webp";
 import { useState } from "react";
 const Navbar = () => {
   const navLinks = [

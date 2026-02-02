@@ -1,11 +1,11 @@
-import Footer from "./footer";
-import HeroSection from "./hero-section";
-import Navbar from "./navbar";
-import RateCalculator from "./rate-calculator";
-import Testimonies from "./testimonies";
-import  WhatWeOffer  from "./what-we-offer";
-import singlePhone from "/iPhone 15.png";
-import bigIphoneImage from "/IphoneSomething.png";
+import Footer from "./components/footer";
+import HeroSection from "./components/hero-section";
+import Navbar from "./components/navbar";
+import RateCalculator from "./components/rate-calculator";
+import Testimonies from "./components/testimonies";
+import  WhatWeOffer  from "./components/what-we-offer";
+import singlePhone from "/iPhone-15.webp";
+import bigIphoneImage from "/IphoneSomething.webp";
 
 function App() {
   return (

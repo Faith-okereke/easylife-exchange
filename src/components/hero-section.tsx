@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="relative flex justify-center items-end w-full lg:w-1/2">
         
         {/* Green Ellipse - Made wider (140%) to accommodate larger phones */}
-        <div className="absolute bottom-0 w-[120%] h-[45%] bg-primary rounded-[100%] translate-y-[20%]" />
+        <div className="absolute bottom-0 lg:w-[120%] w-full h-[45%] bg-primary rounded-[100%] translate-y-[20%]" />
 
         <img
           src={PhoneImage}

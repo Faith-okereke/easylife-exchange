@@ -1,4 +1,4 @@
-import phoneHomeImg from "/home.png";
+import phoneHomeImg from "/home.webp";
 import giftImage from "/Gifts image.png";
 
 import CryptoRing from "/BigImagebg.webp";
@@ -17,7 +17,7 @@ import electricity from "/icons/electricity.png";
 
 const WhatWeOffer = () => {
   return (
-    <div className="bg-white lg:px-20 lg:py-24 p-6 ">
+    <div className="bg-white lg:px-20 lg:py-24 p-6 py-10 ">
       <h2 className="font-semibold text-3xl pb-8 text-center">What We Offer</h2>
       {/* CARDS  */}
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
