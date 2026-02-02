@@ -1,8 +1,8 @@
 import phoneHomeImg from "/home.png";
 import giftImage from "/Gifts image.png";
 
-import CryptoRing from "/BigImagebg.png";
-import LargeBitcoin from "/Bitcoin.png";
+import CryptoRing from "/BigImagebg.webp";
+import LargeBitcoin from "/Bitcoin.webp";
 
 import Ethereum from "/icons/Ethereum.png";
 import Solana from "/icons/Solana.png";

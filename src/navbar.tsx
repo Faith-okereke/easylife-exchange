@@ -31,23 +31,35 @@ const Navbar = () => {
 
       {/* MOBILE NAVBAR  */}
       <div className="block lg:hidden p-6 relative bg-[#FBFCFB]">
-       {openNav && <div
-          className="fixed inset-0 bg-black/20 z-20"
-          onClick={() => setOpenNav(false)}
-        />}
-        <Icon
-          icon={"charm:menu-hamburger"}
-          fontSize={40}
-          onClick={() => setOpenNav(!openNav)}
-        />
         {openNav && (
-          <div className="flex flex-col justify-normal p-6 gap-5 bg-white z-30 w-[70%] rounded-xl h-screen absolute top-0 left-0">
-            <img
-              src={Logo}
-              alt="Easy-Life Excahnge Logo"
-              className="h-12 w-12 object-contain"
+          <div
+            className="fixed inset-0 bg-black/40 z-20"
+            onClick={() => setOpenNav(false)}
+          />
+        )}
+        <div className="flex justify-between items-center w-full">
+          <img
+            src={Logo}
+            alt="Easy-Life Excahnge Logo"
+            className="h-12 w-12 object-contain"
+           
+          />
+          <Icon
+            icon={"charm:menu-hamburger"}
+            fontSize={40}
+            onClick={() => setOpenNav(!openNav)}
+          />
+        </div>
+
+        {openNav && (
+          <div className="flex flex-col justify-normal p-6 gap-10 bg-white z-30 w-[70%]  h-screen fixed top-0 right-0">
+            <Icon
+              icon={"ix:cancel"}
+              className="absolute top-6 right-6"
+              fontSize={30}
+              onClick={() => setOpenNav(false)}
             />
-            <div className="flex flex-col justify-normal gap-8 items-start text-lg">
+            <div className="flex flex-col justify-normal gap-8 items-start text-lg pt-12">
               {navLinks.map((item) => (
                 <a key={item.href} href={item.href} className="text-black">
                   {item.label}

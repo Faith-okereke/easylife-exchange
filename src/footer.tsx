@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 import LogoLight from "/easylife-logo-light.png";
-import downloadGoogle from "/download-google.png";
-import downloadApple from "/download-apple.png";
+import downloadGoogle from "/download-google.webp";
+import downloadApple from "/download-apple.webp";
 const Footer = () => {
   return (
     <div className="bg-primary-dark lg:px-20 px-6 lg:py-12 py-6 text-white">
