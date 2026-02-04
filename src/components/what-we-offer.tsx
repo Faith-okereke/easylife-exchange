@@ -28,7 +28,7 @@ const WhatWeOffer = () => {
             <h3 className="font-bold lg:text-2xl text-xl">
               Buy and Sell Crypto
             </h3>
-            <p className="text-sm lg:text-base">
+            <p className="text-sm">
               Buy and trade bitcoin and other cryptocurrencies from any
               location, at your convenience
             </p>
@@ -38,11 +38,11 @@ const WhatWeOffer = () => {
 
         {/* CARD 2 */}
         <div className="bg-[#C8ED8C] flex justify-between items-end rounded-2xl lg:min-h-80 min-h-50">
-          <div className="flex flex-col gap-4 lg:p-8 p-6 max-w-68">
+          <div className="flex flex-col gap-4 lg:py-8 lg:pl-8 lg:pr-10 p-6 max-w-68">
             <h3 className="font-bold lg:text-2xl text-xl">
               Send and Receive Money
             </h3>
-            <p className="text-sm lg:text-base">
+            <p className="text-sm">
               Send and receive money easily from any location, at your
               convenience
             </p>
@@ -50,30 +50,30 @@ const WhatWeOffer = () => {
           <img
             src={phoneHomeImg}
             alt=""
-            className="lg:w-56 lg:h-56 h-32 w-32 object-contain"
+            className="lg:w-72 lg:h-72 h-32 w-32 object-contain"
           />
         </div>
 
         {/* CARD 3 */}
-        <div className="bg-linear-to-b from-[#C8ED8C] to-[#D7E6C0] flex justify-between items-end rounded-2xl lg:min-h-80 min-h-50">
-          <div className="flex flex-col gap-4 lg:p-8 p-6 max-w-68">
+        <div className="bg-linear-to-b from-[#C8ED8C] to-[#D7E6C0] flex justify-between items-end rounded-2xl lg:min-h-80 min-h-50 relative overflow-hidden">
+          <div className="flex flex-col gap-4 lg:py-8 lg:pl-8 lg:pr-0 p-6 max-w-68">
             <h3 className="font-bold lg:text-2xl text-xl">Refer and Earn</h3>
-            <p className="text-sm lg:text-base">
+            <p className="text-sm ">
               Refer your friends and family and earn amazing rewards!
             </p>
           </div>
           <img 
             src={giftImage} 
             alt="" 
-            className="lg:w-60 lg:h-60 h-32 w-32 object-contain" 
+            className="lg:w-96 lg:h-96 h-32 w-32 object-contain static lg:absolute lg:-right-20  lg:-bottom-15 " 
           />
         </div>
 
         {/* CARD 4 - Fixed Layout */}
-        <div className="bg-[#E6FAC7] flex justify-between items-center lg:p-8 p-6 rounded-2xl lg:min-h-80 min-h-50 relative overflow-hidden">
-          <div className="flex flex-col gap-4 lg:max-w-60 max-w-42 relative z-10">
+        <div className="bg-[#E6FAC7] flex justify-between items-end lg:pl-8 lg:py-8 lg:pr-0 p-6 rounded-2xl lg:min-h-80 min-h-50 relative overflow-hidden">
+          <div className="flex flex-col gap-4 md:max-w-60 max-w-40 relative z-10">
             <h3 className="font-bold lg:text-2xl text-xl">Pay Bills Easily</h3>
-            <p className="text-sm lg:text-base font-light">
+            <p className="text-sm">
               Top up airtime and data, subscribe your cable, buy electricity,
               and fund your betting account
             </p>
@@ -94,31 +94,31 @@ export const CryptoRingImage = () => {
       <img
         src={CryptoRing}
         alt="Crypto Ring"
-        className="lg:w-200 w-50 h-auto "
+        className="lg:w-200 w-80 h-auto "
       />
       <img
         src={LargeBitcoin}
-        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:w-20 lg:h-20 w-8 h-8"
+        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:w-20 md:h-20 w-8 h-8"
       />
       <img
         src={Ethereum}
-        className="absolute top-10 left-1/4 transform -translate-x-1/2 -translate-y-1/2 lg:w-8 lg:h-8 h-5 w-5 hidden lg:block"
+        className="absolute top-10 left-1/4 transform -translate-x-1/2 -translate-y-1/2 md:w-8 md:h-8 h-5 w-5 hidden md:block"
       />
       <img
         src={Binance}
-        className="absolute top-10 left-3/4 transform -translate-x-1/2 -translate-y-1/2 lg:w-8 lg:h-8 h-5 w-5 hidden lg:block"
+        className="absolute top-10 left-3/4 transform -translate-x-1/2 -translate-y-1/2 md:w-8 md:h-8 h-5 w-5 hidden md:block"
       />
       <img
         src={BitcoinSmall}
-        className="absolute top-1/2 -right-3 transform -translate-x-1/2 -translate-y-1/2 lg:w-8 lg:h-8 h-5 w-5 hidden lg:block"
+        className="absolute top-1/2 -right-3 transform -translate-x-1/2 -translate-y-1/2 md:w-8 md:h-8 h-5 w-5 hidden md:block"
       />
       <img
         src={Tether}
-        className="absolute -bottom-3 right-1/3 transform -translate-x-1/2 -translate-y-1/2 lg:w-8 lg:h-8 h-5 w-5 hidden lg:block"
+        className="absolute -bottom-3 right-1/3 transform -translate-x-1/2 -translate-y-1/2 md:w-8 md:h-8 h-5 w-5 hidden md:block"
       />
       <img
         src={Solana}
-        className="absolute bottom-20 left-5 transform -translate-x-1/2 -translate-y-1/2 lg:w-8 lg:h-8 h-5 w-5 hidden lg:block"
+        className="absolute bottom-20 left-5 transform -translate-x-1/2 -translate-y-1/2 md:w-8 md:h-8 h-5 w-5 hidden md:block"
       />
     </div>
   );
@@ -126,30 +126,29 @@ export const CryptoRingImage = () => {
 
 export const FloatingContent = () => {
   return (
-    // Container: Positioned absolute on the right. 
-    // Uses scale-75 on mobile to fit the items in the smaller box.
-    <div className="absolute right-0 top-1/2 -translate-y-1/2 lg:pr-8 pr-2 flex flex-col gap-3 lg:gap-4 scale-75 lg:scale-100 origin-right">
+
+    <div className="absolute right-0 top-1/2 -translate-y-1/2 lg:pr-1 pr-2 flex flex-col justify-end  items-end gap-3 lg:gap-4 scale-75 lg:scale-100 origin-right">
       
       {/* Item 1 */}
-      <div className="bg-white rounded-lg p-2 lg:p-2.5 shadow-lg flex items-center gap-3 w-max lg:ml-8 ml-4">
+      <div className="bg-white rounded-lg p-2 pr-4 shadow-lg flex items-center justify-between lg:w-38 w-30 lg:mr-44 mr-14">
         <img src={betfunding} className="w-5 h-5 lg:w-8 lg:h-8" />
         <p className="text-xs lg:text-sm font-medium">Bet Funding</p>
       </div>
 
       {/* Item 2 - Shifted Left (-ml) for staggered look */}
-      <div className="bg-white rounded-lg p-2 lg:p-2.5 shadow-lg flex items-center gap-3 w-max -ml-2 lg:-ml-4">
+      <div className="bg-white rounded-lg p-2 pr-4 shadow-lg flex items-center justify-between lg:w-38 w-32 mr-4">
         <img src={electricity} className="w-5 h-5 lg:w-8 lg:h-8" />
         <p className="text-xs lg:text-sm font-medium">Buy Electricity</p>
       </div>
 
       {/* Item 3 */}
-      <div className="bg-white rounded-lg p-2 lg:p-2.5 shadow-lg flex items-center gap-3 w-max lg:ml-4 ml-2">
+      <div className="bg-white rounded-lg p-2 pr-4 shadow-lg flex items-center justify-between lg:w-45 w-38 lg:mr-32 mr-14 ">
         <img src={cable} className="w-5 h-5 lg:w-8 lg:h-8" />
         <p className="text-xs lg:text-sm font-medium">Cable Subscription</p>
       </div>
 
       {/* Item 4 - Shifted Left */}
-      <div className="bg-white rounded-lg p-2 lg:p-2.5 shadow-lg flex items-center gap-3 w-max -ml-2 lg:-ml-6">
+      <div className="bg-white rounded-lg p-2 pr-4 shadow-lg flex items-center justify-between  lg:w-44 w-35 mr-4 ">
         <img src={airtime} className="w-5 h-5 lg:w-8 lg:h-8" />
         <p className="text-xs lg:text-sm font-medium">Buy Airtime/Data</p>
       </div>

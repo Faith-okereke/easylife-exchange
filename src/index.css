@@ -16,7 +16,7 @@ p,
 .text-manrope {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: normal;
   font-style: normal;
 }
 h1,
