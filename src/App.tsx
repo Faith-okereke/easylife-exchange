@@ -29,7 +29,7 @@ function App() {
       </div>
 
       {/* ABOUT EASYLIFE EXCHANGE / */}
-      <div className="bg-primary-light flex lg:flex-row flex-col justify-center items-center gap-6  lg:py-16 py-8 px-6 lg:px-0">
+      <div className="bg-primary-light flex lg:flex-row flex-col justify-center items-center gap-6  lg:py-16 py-8 px-6 lg:px-0" id="about-us">
         <img
           src={singlePhone}
           alt="Iphone 15"
@@ -49,7 +49,7 @@ function App() {
       <Testimonies />
 
       {/* CONTACT US SECTION  */}
-      <div className=" lg:pt-32 pt-0 text-center lg:px-20 px-6 flex justify-center items-center flex-col">
+      <div className=" lg:pt-32 pt-0 text-center lg:px-20 px-6 flex justify-center items-center flex-col" id="contact-us">
         <h3 className="md:text-3xl text-xl font-semibold">Contact Us</h3>
         <p className="py-5">Feel free to reach out to us</p>
         <textarea

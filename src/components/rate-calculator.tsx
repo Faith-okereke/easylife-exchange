@@ -22,7 +22,7 @@ const RateCalculator = () => {
   };
 
   return (
-    <div className="bg-primary-dark lg:px-20 px-10 lg:pb-12 pb-6">
+    <div className="bg-primary-dark lg:px-20 px-10 lg:pb-12 pb-6" id="rate-calculator">
       <div className="text-white flex md:flex-row flex-col justify-between items-center w-full lg:py-8 py-6">
         <h5 className="font-semibold">Rate Calculator</h5>
         <p>

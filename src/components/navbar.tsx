@@ -3,11 +3,11 @@ import Logo from "/easylife-logo.webp";
 import { useState } from "react";
 const Navbar = () => {
   const navLinks = [
-    { href: "/", label: "Home" },
-    { href: "/about-us", label: "About Us" },
-    { href: "services", label: "Services" },
-    { href: "rate-calculator", label: "Rate Calculator" },
-    { href: "contact-us", label: "Contact Us" },
+    { href: "/#", label: "Home" },
+    { href: "/#about-us", label: "About Us" },
+    { href: "/#services", label: "Services" },
+    { href: "/#rate-calculator", label: "Rate Calculator" },
+    { href: "/#contact-us", label: "Contact Us" },
   ];
   const [openNav, setOpenNav] = useState(false);
 
